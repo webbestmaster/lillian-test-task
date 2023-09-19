@@ -1,4 +1,4 @@
-# Test task - 1
+# Test task 1
 
 [![Github CI](https://github.com/webbestmaster/test-task-1/actions/workflows/github-ci.yml/badge.svg)](https://github.com/webbestmaster/test-task-1/actions/workflows/github-ci.yml)
 
