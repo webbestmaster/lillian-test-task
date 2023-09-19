@@ -1,0 +1,17 @@
+#IDE
+/.idea/
+/.vscode/
+
+# Logs
+logs
+
+# npm
+/node_modules/
+
+# dist
+/dist/
+
+# report
+/coverage-ts/
+/tsc-check/
+/coverage/

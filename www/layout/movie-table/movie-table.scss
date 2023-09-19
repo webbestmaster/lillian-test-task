@@ -1,0 +1,15 @@
+@import "/www/css/var";
+
+.movie_table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    flex-shrink: 0;
+    width: 707px;
+}
+
+.movie_table__message {
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}

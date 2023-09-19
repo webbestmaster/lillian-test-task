@@ -1,0 +1,63 @@
+@import "/www/css/var";
+@import "/www/css/service";
+
+.sort {
+    display: block;
+    position: relative;
+}
+
+.sort__button {
+    @extend %button;
+
+    letter-spacing: 1px;
+}
+
+.sort__list {
+    align-items: flex-start;
+    background-color: $main-background-color;
+    border: 1px solid $input-border-color;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px 0;
+    justify-content: flex-start;
+    left: 0;
+    margin: 0;
+    padding: 4px;
+    position: absolute;
+    top: 100%;
+}
+
+.sort__item {
+    display: block;
+    width: 100%;
+}
+
+.sort__item__arrow {
+    display: block;
+    font-size: 16px;
+    height: 20px;
+    line-height: 16px;
+    padding: 0 0 0 12px;
+    text-align: right;
+    width: 10px;
+}
+
+.sort__item_button {
+    @extend %button;
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    justify-content: space-between;
+    min-height: auto;
+    width: 100%;
+
+    &.sort__item_button__active {
+        border-color: $input-focus-border-color;
+        color: $input-focus-color;
+    }
+}
+
+

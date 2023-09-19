@@ -1,0 +1,35 @@
+@import "/www/css/var";
+
+.movie_item {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid $main-border-color;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0;
+    padding: 19px 24px 14px;
+    text-align: left;
+    width: 100%;
+
+    &.movie_item__active,
+    &:hover {
+        background-color: $movie-item-hover-background-color;
+    }
+}
+
+.movie_item__cell {
+    padding: 19px 16px 14px;
+}
+
+.movie_item__cell__episode {
+    padding: 19px 16px 14px 26px;
+}
+
+.movie_item__text {
+    margin: 0;
+    padding: 0;
+}
+
+.movie_item__rating {
+    top: -3px
+}

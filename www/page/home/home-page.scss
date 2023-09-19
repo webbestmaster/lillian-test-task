@@ -1,0 +1,49 @@
+@import "/www/css/var";
+
+.home_page {
+    align-items: stretch;
+    background-color: $main-background-color;
+    border: 1px solid $main-border-color;
+    border-bottom: 0;
+    border-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+    max-width: $max-width;
+    min-height: 100vh;
+}
+
+.home_page__top_panel {
+    align-items: center;
+    background-color: $top-panel-background-color;
+    border-bottom: 1px solid $main-border-color;
+    display: flex;
+    flex-direction: row;
+    gap: 0 16px;
+    justify-content: flex-start;
+    padding: 11px 23px;
+}
+
+.home_page__search {
+    flex-grow: 1;
+}
+
+.home_page__main {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: flex-start;
+}
+
+.home_page__table {
+    border-right: 1px solid $main-border-color;
+}
+
+.home_page__message {
+    font-size: 30px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}

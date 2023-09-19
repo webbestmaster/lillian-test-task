@@ -1,0 +1,105 @@
+@import './var';
+
+%button {
+    background-color: $main-background-color;
+    border: 1px solid $input-border-color;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: $main-font-color;
+    cursor: pointer;
+    display: block;
+    flex-shrink: 0;
+    font-size: 16px;
+    min-height: 40px;
+    padding: 6px 16px 4px;
+    text-align: center;
+
+    &:focus {
+        border-color: $input-focus-border-color;
+        color: $input-focus-color;
+        outline: 0;
+    }
+}
+
+%input-text {
+    @extend %button;
+
+    cursor: text;
+    text-align: initial;
+
+    &:focus {
+        color: $main-font-color;
+    }
+}
+
+
+/*
+
+%ellipsis,
+.ellipsis {
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.main_font_color {
+    color: $main-font-color;
+}
+
+.secondary_font_color {
+    color: $secondary-font-color;
+}
+
+%link,
+.link {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+%scrolling-performance-issue {
+    transform: translate3d(0, 0, 0);
+}
+
+%scrollable,
+.scrollable {
+    @extend %scrolling-performance-issue;
+
+    display: block;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    scrollbar-color: #c1c1c1 #f1f1f1;
+    scrollbar-width: thin;
+
+    &::-webkit-scrollbar {
+        background-color: #f1f1f1;
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #c1c1c1;
+        border-radius: 2px;
+    }
+}
+
+.disable_user_event {
+    pointer-events: none;
+}
+
+@media screen and (max-width: $tablet-width) {
+    %width-limit,
+    .width_limit {
+        padding-left: $ui-unit * 2;
+        padding-right: $ui-unit * 2;
+    }
+}
+*/
